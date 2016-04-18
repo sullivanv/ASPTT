@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D8494211CBE398400C30715 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8494201CBE398400C30715 /* test.swift */; };
+		5D8494251CBF964A00C30715 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D8494241CBF964A00C30715 /* SWRevealViewController.m */; };
+		5D8494291CBFC3F800C30715 /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8494281CBFC3F800C30715 /* BackTableVC.swift */; };
+		5D8494311CBFF5D900C30715 /* Planning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8494301CBFF5D900C30715 /* Planning.swift */; };
+		5D8494371CC1258A00C30715 /* menu1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D8494361CC1258A00C30715 /* menu1.png */; };
+		5D8494391CC1325400C30715 /* ClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8494381CC1325400C30715 /* ClientViewController.swift */; };
+		5D84943D1CC1385C00C30715 /* InfoClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84943C1CC1385C00C30715 /* InfoClient.swift */; };
+		5D84943F1CC1387400C30715 /* PlanningClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84943E1CC1387400C30715 /* PlanningClient.swift */; };
+		5D8494411CC138A200C30715 /* ReservationClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8494401CC138A200C30715 /* ReservationClient.swift */; };
+		5D8494431CC138B900C30715 /* SuiviClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8494421CC138B900C30715 /* SuiviClient.swift */; };
+		5D8494451CC138C900C30715 /* OutilsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8494441CC138C900C30715 /* OutilsClient.swift */; };
+		5D8494471CC14CE900C30715 /* CoachViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8494461CC14CE900C30715 /* CoachViewController.swift */; };
+		5D8494491CC14E3300C30715 /* AjouterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8494481CC14E3300C30715 /* AjouterClient.swift */; };
+		5D84944B1CC1512A00C30715 /* ListeDesClients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84944A1CC1512A00C30715 /* ListeDesClients.swift */; };
+		5D84944D1CC1524300C30715 /* DebuterSceance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84944C1CC1524300C30715 /* DebuterSceance.swift */; };
 		5DDCC2741CBD4CEE00DE518C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDCC2731CBD4CEE00DE518C /* AppDelegate.swift */; };
 		5DDCC2761CBD4CEE00DE518C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDCC2751CBD4CEE00DE518C /* ViewController.swift */; };
 		5DDCC2791CBD4CEE00DE518C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDCC2771CBD4CEE00DE518C /* Main.storyboard */; };
@@ -14,6 +29,9 @@
 		5DDCC27E1CBD4CEE00DE518C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDCC27C1CBD4CEE00DE518C /* LaunchScreen.storyboard */; };
 		5DDCC2891CBD4CEF00DE518C /* ASPTTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDCC2881CBD4CEF00DE518C /* ASPTTTests.swift */; };
 		5DDCC2941CBD4CEF00DE518C /* ASPTTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDCC2931CBD4CEF00DE518C /* ASPTTUITests.swift */; };
+		5DDCC2A21CBD4D4500DE518C /* page-daccueil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DDCC2A11CBD4D4500DE518C /* page-daccueil.jpg */; };
+		5DDCC2A41CBD4D4900DE518C /* 2noir.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DDCC2A31CBD4D4900DE518C /* 2noir.png */; };
+		5DDCC2A61CBD4F3000DE518C /* lecorpsetesprit_logo_mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DDCC2A51CBD4F3000DE518C /* lecorpsetesprit_logo_mobile.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +52,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5D8494201CBE398400C30715 /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		5D8494221CBF964900C30715 /* ASPTT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASPTT-Bridging-Header.h"; sourceTree = "<group>"; };
+		5D8494231CBF964A00C30715 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		5D8494241CBF964A00C30715 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		5D8494281CBFC3F800C30715 /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
+		5D8494301CBFF5D900C30715 /* Planning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Planning.swift; sourceTree = "<group>"; };
+		5D8494361CC1258A00C30715 /* menu1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu1.png; sourceTree = "<group>"; };
+		5D8494381CC1325400C30715 /* ClientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClientViewController.swift; sourceTree = "<group>"; };
+		5D84943C1CC1385C00C30715 /* InfoClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoClient.swift; sourceTree = "<group>"; };
+		5D84943E1CC1387400C30715 /* PlanningClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanningClient.swift; sourceTree = "<group>"; };
+		5D8494401CC138A200C30715 /* ReservationClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationClient.swift; sourceTree = "<group>"; };
+		5D8494421CC138B900C30715 /* SuiviClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuiviClient.swift; sourceTree = "<group>"; };
+		5D8494441CC138C900C30715 /* OutilsClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutilsClient.swift; sourceTree = "<group>"; };
+		5D8494461CC14CE900C30715 /* CoachViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoachViewController.swift; sourceTree = "<group>"; };
+		5D8494481CC14E3300C30715 /* AjouterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AjouterClient.swift; sourceTree = "<group>"; };
+		5D84944A1CC1512A00C30715 /* ListeDesClients.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListeDesClients.swift; sourceTree = "<group>"; };
+		5D84944C1CC1524300C30715 /* DebuterSceance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebuterSceance.swift; sourceTree = "<group>"; };
 		5DDCC2701CBD4CEE00DE518C /* ASPTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASPTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDCC2731CBD4CEE00DE518C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DDCC2751CBD4CEE00DE518C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +82,9 @@
 		5DDCC28F1CBD4CEF00DE518C /* ASPTTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASPTTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDCC2931CBD4CEF00DE518C /* ASPTTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASPTTUITests.swift; sourceTree = "<group>"; };
 		5DDCC2951CBD4CEF00DE518C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DDCC2A11CBD4D4500DE518C /* page-daccueil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "page-daccueil.jpg"; path = "../../Downloads/page-daccueil.jpg"; sourceTree = "<group>"; };
+		5DDCC2A31CBD4D4900DE518C /* 2noir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2noir.png; path = ../../Downloads/2noir.png; sourceTree = "<group>"; };
+		5DDCC2A51CBD4F3000DE518C /* lecorpsetesprit_logo_mobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lecorpsetesprit_logo_mobile.png; path = ../../Downloads/lecorpsetesprit_logo_mobile.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +119,10 @@
 				5DDCC2871CBD4CEF00DE518C /* ASPTTTests */,
 				5DDCC2921CBD4CEF00DE518C /* ASPTTUITests */,
 				5DDCC2711CBD4CEE00DE518C /* Products */,
+				5DDCC2A11CBD4D4500DE518C /* page-daccueil.jpg */,
+				5DDCC2A31CBD4D4900DE518C /* 2noir.png */,
+				5DDCC2A51CBD4F3000DE518C /* lecorpsetesprit_logo_mobile.png */,
+				5D8494361CC1258A00C30715 /* menu1.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,9 +142,25 @@
 				5DDCC2731CBD4CEE00DE518C /* AppDelegate.swift */,
 				5DDCC2751CBD4CEE00DE518C /* ViewController.swift */,
 				5DDCC2771CBD4CEE00DE518C /* Main.storyboard */,
+				5D8494461CC14CE900C30715 /* CoachViewController.swift */,
+				5D84943C1CC1385C00C30715 /* InfoClient.swift */,
+				5D84943E1CC1387400C30715 /* PlanningClient.swift */,
+				5D8494401CC138A200C30715 /* ReservationClient.swift */,
+				5D8494421CC138B900C30715 /* SuiviClient.swift */,
+				5D8494441CC138C900C30715 /* OutilsClient.swift */,
 				5DDCC27A1CBD4CEE00DE518C /* Assets.xcassets */,
 				5DDCC27C1CBD4CEE00DE518C /* LaunchScreen.storyboard */,
 				5DDCC27F1CBD4CEE00DE518C /* Info.plist */,
+				5D8494201CBE398400C30715 /* test.swift */,
+				5D8494231CBF964A00C30715 /* SWRevealViewController.h */,
+				5D8494241CBF964A00C30715 /* SWRevealViewController.m */,
+				5D8494221CBF964900C30715 /* ASPTT-Bridging-Header.h */,
+				5D8494281CBFC3F800C30715 /* BackTableVC.swift */,
+				5D8494301CBFF5D900C30715 /* Planning.swift */,
+				5D8494381CC1325400C30715 /* ClientViewController.swift */,
+				5D8494481CC14E3300C30715 /* AjouterClient.swift */,
+				5D84944A1CC1512A00C30715 /* ListeDesClients.swift */,
+				5D84944C1CC1524300C30715 /* DebuterSceance.swift */,
 			);
 			path = ASPTT;
 			sourceTree = "<group>";
@@ -193,6 +251,7 @@
 				TargetAttributes = {
 					5DDCC26F1CBD4CEE00DE518C = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = RACNDSCXQ8;
 					};
 					5DDCC2831CBD4CEF00DE518C = {
 						CreatedOnToolsVersion = 7.3;
@@ -229,9 +288,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DDCC2A21CBD4D4500DE518C /* page-daccueil.jpg in Resources */,
 				5DDCC27E1CBD4CEE00DE518C /* LaunchScreen.storyboard in Resources */,
 				5DDCC27B1CBD4CEE00DE518C /* Assets.xcassets in Resources */,
+				5DDCC2A61CBD4F3000DE518C /* lecorpsetesprit_logo_mobile.png in Resources */,
+				5DDCC2A41CBD4D4900DE518C /* 2noir.png in Resources */,
 				5DDCC2791CBD4CEE00DE518C /* Main.storyboard in Resources */,
+				5D8494371CC1258A00C30715 /* menu1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +319,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D8494311CBFF5D900C30715 /* Planning.swift in Sources */,
+				5D8494411CC138A200C30715 /* ReservationClient.swift in Sources */,
+				5D84944B1CC1512A00C30715 /* ListeDesClients.swift in Sources */,
 				5DDCC2761CBD4CEE00DE518C /* ViewController.swift in Sources */,
+				5D8494431CC138B900C30715 /* SuiviClient.swift in Sources */,
+				5D8494451CC138C900C30715 /* OutilsClient.swift in Sources */,
+				5D84943D1CC1385C00C30715 /* InfoClient.swift in Sources */,
+				5D8494471CC14CE900C30715 /* CoachViewController.swift in Sources */,
+				5D8494291CBFC3F800C30715 /* BackTableVC.swift in Sources */,
+				5D8494211CBE398400C30715 /* test.swift in Sources */,
+				5D84943F1CC1387400C30715 /* PlanningClient.swift in Sources */,
 				5DDCC2741CBD4CEE00DE518C /* AppDelegate.swift in Sources */,
+				5D84944D1CC1524300C30715 /* DebuterSceance.swift in Sources */,
+				5D8494491CC14E3300C30715 /* AjouterClient.swift in Sources */,
+				5D8494251CBF964A00C30715 /* SWRevealViewController.m in Sources */,
+				5D8494391CC1325400C30715 /* ClientViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,10 +478,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ASPTT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "prep-ETNA.ASPTT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ASPTT/ASPTT-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -412,10 +495,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = ASPTT/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "prep-ETNA.ASPTT";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "ASPTT/ASPTT-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +572,7 @@
 				5DDCC29A1CBD4CEF00DE518C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DDCC29B1CBD4CEF00DE518C /* Build configuration list for PBXNativeTarget "ASPTTTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +581,7 @@
 				5DDCC29D1CBD4CEF00DE518C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DDCC29E1CBD4CEF00DE518C /* Build configuration list for PBXNativeTarget "ASPTTUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +590,7 @@
 				5DDCC2A01CBD4CEF00DE518C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
