@@ -9,7 +9,6 @@
 import Foundation
 
 class PlanningCoach: UIViewController {
-    
 
     @IBOutlet weak var MenuButton: UIBarButtonItem!
     override func viewDidLoad() {

@@ -17,6 +17,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="page-daccueil.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jLW-Jv-tvw">
+                                <rect key="frame" x="-304" y="0.0" width="712" height="568"/>
+                                <rect key="contentStretch" x="0.90000000000000002" y="0.0" width="0.59999999999999998" height="1"/>
+                            </imageView>
                             <textField clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9nY-EL-HwA">
                                 <rect key="frame" x="33" y="177" width="255" height="30"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -58,10 +62,6 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="page-daccueil.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jLW-Jv-tvw">
-                                <rect key="frame" x="-304" y="0.0" width="712" height="568"/>
-                                <rect key="contentStretch" x="0.90000000000000002" y="0.0" width="0.59999999999999998" height="1"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -69,6 +69,8 @@
                     <connections>
                         <outlet property="Email" destination="9nY-EL-HwA" id="d5L-CU-J9b"/>
                         <outlet property="Mdp" destination="Rmd-h0-9Qh" id="wGE-X7-mm0"/>
+                        <segue destination="Ptf-qx-6am" kind="show" identifier="goto_coach" id="G5f-Bu-WkT"/>
+                        <segue destination="7LP-Qz-Z1s" kind="show" identifier="goto_client" id="3l9-IT-fZE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -237,7 +239,7 @@
             </objects>
             <point key="canvasLocation" x="3145" y="2955"/>
         </scene>
-        <!--Info Client-->
+        <!--Mes informations-->
         <scene sceneID="bpo-zB-7cg">
             <objects>
                 <viewController id="Hoh-4e-uLN" customClass="InfoClient" customModule="ASPTT" customModuleProvider="target" sceneMemberID="viewController">
@@ -248,17 +250,9 @@
                     <view key="view" contentMode="scaleToFill" id="g13-zV-T7L">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uzg-Dk-vJ4">
-                                <rect key="frame" x="130" y="261" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="zGH-p2-7nv">
+                    <navigationItem key="navigationItem" title="Mes informations" id="zGH-p2-7nv">
                         <barButtonItem key="leftBarButtonItem" image="menu1.png" id="USp-A9-KKT">
                             <inset key="imageInsets" minX="1" minY="8" maxX="24" maxY="15"/>
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -273,7 +267,7 @@
             </objects>
             <point key="canvasLocation" x="4476" y="2923"/>
         </scene>
-        <!--Reservation Client-->
+        <!--Reserver creneau-->
         <scene sceneID="ukZ-OO-Vc9">
             <objects>
                 <viewController id="QLy-kp-y2I" customClass="ReservationClient" customModule="ASPTT" customModuleProvider="target" sceneMemberID="viewController">
@@ -285,16 +279,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reserve" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bS7-zX-WSz">
-                                <rect key="frame" x="119" y="261" width="62" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="heure : hh/min" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5bs-Ye-Slx">
+                                <rect key="frame" x="20" y="90" width="130" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="date : JJ/MM/AAAA" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ITz-Wm-M1Y">
+                                <rect key="frame" x="170" y="90" width="130" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Temps en minutes" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="k6v-s7-2hS">
+                                <rect key="frame" x="20" y="128" width="130" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Adrien" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="I3J-Ta-mat">
+                                <rect key="frame" x="170" y="128" width="130" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0d-Ns-B2V">
+                                <rect key="frame" x="119" y="173" width="82" height="30"/>
+                                <state key="normal" title="Valider"/>
+                                <connections>
+                                    <action selector="valider:" destination="QLy-kp-y2I" eventType="touchUpInside" id="eVl-S9-Ntb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="3xH-Xk-z4h">
+                    <navigationItem key="navigationItem" title="Reserver creneau" id="3xH-Xk-z4h">
                         <barButtonItem key="leftBarButtonItem" image="menu1.png" id="ndY-eS-CiA">
                             <inset key="imageInsets" minX="1" minY="8" maxX="24" maxY="15"/>
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -302,13 +317,17 @@
                     </navigationItem>
                     <connections>
                         <outlet property="MenuButton" destination="ndY-eS-CiA" id="ojZ-kQ-AXa"/>
+                        <outlet property="coach" destination="I3J-Ta-mat" id="t92-Tb-HxH"/>
+                        <outlet property="date" destination="ITz-Wm-M1Y" id="wUh-et-kY6"/>
+                        <outlet property="heure" destination="5bs-Ye-Slx" id="Lp6-wb-PgG"/>
+                        <outlet property="temps" destination="k6v-s7-2hS" id="QyR-uK-OD0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gJA-ss-8OE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4476" y="3611"/>
         </scene>
-        <!--Planning Client-->
+        <!--Mon planning-->
         <scene sceneID="Yfp-or-xex">
             <objects>
                 <viewController id="bow-PW-ClI" customClass="PlanningClient" customModule="ASPTT" customModuleProvider="target" sceneMemberID="viewController">
@@ -319,17 +338,9 @@
                     <view key="view" contentMode="scaleToFill" id="h64-o3-VYb">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Planning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X1i-hk-TaB">
-                                <rect key="frame" x="115" y="301" width="66" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="lvs-Xm-qya">
+                    <navigationItem key="navigationItem" title="Mon planning" id="lvs-Xm-qya">
                         <barButtonItem key="leftBarButtonItem" image="menu1.png" id="qD3-Wa-eYg">
                             <inset key="imageInsets" minX="1" minY="8" maxX="24" maxY="15"/>
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -344,7 +355,7 @@
             </objects>
             <point key="canvasLocation" x="4476" y="4326"/>
         </scene>
-        <!--Suivi Client-->
+        <!--Mon suivi-->
         <scene sceneID="fzM-Om-0z2">
             <objects>
                 <viewController id="b1T-fG-Dd6" customClass="SuiviClient" customModule="ASPTT" customModuleProvider="target" sceneMemberID="viewController">
@@ -356,8 +367,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Suivi" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEV-3M-sWu">
-                                <rect key="frame" x="144" y="253" width="37" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pEV-3M-sWu">
+                                <rect key="frame" x="181" y="253" width="0.0" height="0.0"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -365,7 +376,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="gel-hu-jWe">
+                    <navigationItem key="navigationItem" title="Mon suivi" id="gel-hu-jWe">
                         <barButtonItem key="leftBarButtonItem" image="menu1.png" id="IpB-2o-1fM">
                             <inset key="imageInsets" minX="1" minY="8" maxX="24" maxY="15"/>
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -379,7 +390,7 @@
             </objects>
             <point key="canvasLocation" x="4476" y="5043"/>
         </scene>
-        <!--Outils Client-->
+        <!--Mes outils-->
         <scene sceneID="GRT-N4-CsE">
             <objects>
                 <viewController id="21V-Mq-umZ" customClass="OutilsClient" customModule="ASPTT" customModuleProvider="target" sceneMemberID="viewController">
@@ -391,7 +402,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Outils" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HUc-0M-Em1">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HUc-0M-Em1">
                                 <rect key="frame" x="114" y="273" width="186" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -400,7 +411,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="O0Z-D3-Oab">
+                    <navigationItem key="navigationItem" title="Mes outils" id="O0Z-D3-Oab">
                         <barButtonItem key="leftBarButtonItem" image="menu1.png" id="edy-Go-7ji">
                             <inset key="imageInsets" minX="1" minY="8" maxX="24" maxY="15"/>
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -414,7 +425,7 @@
             </objects>
             <point key="canvasLocation" x="4476" y="5732"/>
         </scene>
-        <!--Client View Controller-->
+        <!--Accueil-->
         <scene sceneID="Hsb-OE-jWt">
             <objects>
                 <viewController id="EMl-bf-fgU" customClass="ClientViewController" customModule="ASPTT" customModuleProvider="target" sceneMemberID="viewController">
@@ -426,7 +437,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Accueil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EKZ-Fl-zc9">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EKZ-Fl-zc9">
                                 <rect key="frame" x="129" y="273" width="63" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
@@ -436,7 +447,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <toolbarItems/>
-                    <navigationItem key="navigationItem" id="OyT-9n-eel">
+                    <navigationItem key="navigationItem" title="Accueil" id="OyT-9n-eel">
                         <barButtonItem key="leftBarButtonItem" image="menu1.png" id="BCH-6K-1OE">
                             <inset key="imageInsets" minX="1" minY="8" maxX="24" maxY="15"/>
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -564,7 +575,7 @@
             </objects>
             <point key="canvasLocation" x="283" y="2091"/>
         </scene>
-        <!--Coach View Controller-->
+        <!--Accueil-->
         <scene sceneID="R09-xF-KXs">
             <objects>
                 <viewController id="BnN-fA-YhH" customClass="CoachViewController" customModule="ASPTT" customModuleProvider="target" sceneMemberID="viewController">
@@ -575,17 +586,9 @@
                     <view key="view" contentMode="scaleToFill" id="1mF-dj-jiY">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Accueil" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vDJ-94-Jr3">
-                                <rect key="frame" x="129" y="273" width="63" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="dfX-jj-DU6">
+                    <navigationItem key="navigationItem" title="Accueil" id="dfX-jj-DU6">
                         <barButtonItem key="leftBarButtonItem" image="menu1.png" id="zpC-5f-3AA">
                             <inset key="imageInsets" minX="1" minY="8" maxX="24" maxY="15"/>
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -720,7 +723,7 @@
             </objects>
             <point key="canvasLocation" x="283" y="2923"/>
         </scene>
-        <!--Ajouter Client-->
+        <!--Ajouter un client-->
         <scene sceneID="sOa-Q2-el0">
             <objects>
                 <viewController id="Kf3-Ho-wo9" customClass="AjouterClient" customModule="ASPTT" customModuleProvider="target" sceneMemberID="viewController">
@@ -732,30 +735,105 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ajouter Client" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIz-Ld-SHs">
-                                <rect key="frame" x="107" y="273" width="106" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TFa-gv-A1F">
+                                <rect key="frame" x="20" y="233" width="278" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mot de passe" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2Cq-yl-wLa">
+                                <rect key="frame" x="20" y="269" width="278" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Date de naissance : JJ/MM/AAAA" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="0fl-9P-bsT">
+                                <rect key="frame" x="20" y="119" width="278" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Lieu de naissance" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="94g-9C-NhR">
+                                <rect key="frame" x="20" y="157" width="278" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Telephone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Bbw-CK-RAX">
+                                <rect key="frame" x="20" y="195" width="278" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nom" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ejv-3d-ksG">
+                                <rect key="frame" x="20" y="81" width="118" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Prenom" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="W61-E5-M7M">
+                                <rect key="frame" x="180" y="81" width="118" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Taille (cm)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5xO-2a-lFD">
+                                <rect key="frame" x="20" y="307" width="118" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Poids (kg)" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="AvV-VS-1Nl">
+                                <rect key="frame" x="180" y="307" width="118" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0fg-Fx-dcJ">
+                                <rect key="frame" x="132" y="353" width="57" height="30"/>
+                                <state key="normal" title="Suivant"/>
+                                <connections>
+                                    <action selector="Suivant:" destination="Kf3-Ho-wo9" eventType="touchUpInside" id="y9h-OM-4kF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Qdp-lT-EpK">
+                    <navigationItem key="navigationItem" title="Ajouter un client" id="Qdp-lT-EpK">
                         <barButtonItem key="leftBarButtonItem" image="menu1.png" id="TX5-GP-HNW">
                             <inset key="imageInsets" minX="1" minY="8" maxX="24" maxY="15"/>
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="Mail" destination="TFa-gv-A1F" id="5gM-Uc-3Rk"/>
                         <outlet property="MenuButton" destination="TX5-GP-HNW" id="Ouz-m7-oFK"/>
+                        <outlet property="datedenaissance" destination="0fl-9P-bsT" id="j3a-QG-Mni"/>
+                        <outlet property="lieudenaissance" destination="94g-9C-NhR" id="xBq-y1-FEb"/>
+                        <outlet property="mdp1" destination="2Cq-yl-wLa" id="7NO-V8-RyW"/>
+                        <outlet property="nom1" destination="Ejv-3d-ksG" id="hYY-JK-DB4"/>
+                        <outlet property="poa" destination="AvV-VS-1Nl" id="nBy-he-mz9"/>
+                        <outlet property="prenom1" destination="W61-E5-M7M" id="pLV-2x-LBa"/>
+                        <outlet property="tay" destination="5xO-2a-lFD" id="AVK-p5-UU2"/>
+                        <outlet property="telephone" destination="Bbw-CK-RAX" id="kuN-Xg-jtZ"/>
+                        <segue destination="sii-e8-d0M" kind="show" identifier="goto_ins1" id="9uM-Lq-3me"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f63-kz-Zdh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1387" y="2941"/>
         </scene>
-        <!--Liste Des Clients-->
+        <!--View Controller-->
+        <scene sceneID="LRf-s1-PbS">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1a5-Z8-fmd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="sii-e8-d0M" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NkG-Jp-dEJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="SGj-ms-ivG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gmA-sV-MlO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1832" y="2941"/>
+        </scene>
+        <!--Liste des clients-->
         <scene sceneID="g6F-8M-nFr">
             <objects>
                 <viewController id="RCg-0J-6kb" customClass="ListeDesClients" customModule="ASPTT" customModuleProvider="target" sceneMemberID="viewController">
@@ -766,17 +844,9 @@
                     <view key="view" contentMode="scaleToFill" id="n2T-QR-Mfz">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Liste des clients" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SjX-50-5gi">
-                                <rect key="frame" x="94" y="273" width="132" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Svf-xx-rcN">
+                    <navigationItem key="navigationItem" title="Liste des clients" id="Svf-xx-rcN">
                         <barButtonItem key="leftBarButtonItem" image="menu1.png" id="3zf-UQ-a5q">
                             <inset key="imageInsets" minX="1" minY="8" maxX="24" maxY="15"/>
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -790,7 +860,7 @@
             </objects>
             <point key="canvasLocation" x="1387" y="3587"/>
         </scene>
-        <!--Planning Coach-->
+        <!--Mon planning-->
         <scene sceneID="iOd-0E-uul">
             <objects>
                 <viewController id="Vjg-QL-wCo" customClass="PlanningCoach" customModule="ASPTT" customModuleProvider="target" sceneMemberID="viewController">
@@ -801,17 +871,9 @@
                     <view key="view" contentMode="scaleToFill" id="nh9-AL-scG">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mon Planning" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NBh-Tz-5jc">
-                                <rect key="frame" x="105" y="273" width="111" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Bn1-Qv-dDh">
+                    <navigationItem key="navigationItem" title="Mon planning" id="Bn1-Qv-dDh">
                         <barButtonItem key="leftBarButtonItem" image="menu1.png" id="h7R-Ga-5g4">
                             <inset key="imageInsets" minX="1" minY="8" maxX="24" maxY="15"/>
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
@@ -825,7 +887,7 @@
             </objects>
             <point key="canvasLocation" x="1387" y="4305"/>
         </scene>
-        <!--Debuter Sceance-->
+        <!--Debuter sceance !-->
         <scene sceneID="UFq-tw-g8x">
             <objects>
                 <viewController id="g8l-gs-jOz" customClass="DebuterSceance" customModule="ASPTT" customModuleProvider="target" sceneMemberID="viewController">
@@ -836,17 +898,9 @@
                     <view key="view" contentMode="scaleToFill" id="ToW-YA-JkL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Debuter Sceance !" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qSx-xB-LGo">
-                                <rect key="frame" x="84" y="273" width="152" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="XhC-Oz-lf5">
+                    <navigationItem key="navigationItem" title="Debuter sceance !" id="XhC-Oz-lf5">
                         <barButtonItem key="leftBarButtonItem" image="menu1.png" id="xPh-1F-24G">
                             <inset key="imageInsets" minX="1" minY="8" maxX="24" maxY="15"/>
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
