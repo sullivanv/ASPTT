@@ -17,9 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="page-daccueil.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jLW-Jv-tvw">
-                                <rect key="frame" x="-304" y="0.0" width="712" height="568"/>
-                                <rect key="contentStretch" x="0.90000000000000002" y="0.0" width="0.59999999999999998" height="1"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="page-daccueil (1)" translatesAutoresizingMaskIntoConstraints="NO" id="UNR-R9-kyN">
+                                <rect key="frame" x="-346" y="0.0" width="809" height="568"/>
                             </imageView>
                             <textField clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9nY-EL-HwA">
                                 <rect key="frame" x="33" y="177" width="255" height="30"/>
@@ -41,19 +40,13 @@
                                     <action selector="connexion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bmQ-yQ-8Ad"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" alpha="0.40000000000000002" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lecorpsetesprit_logo_mobile.png" translatesAutoresizingMaskIntoConstraints="NO" id="0U8-TL-ukg">
-                                <rect key="frame" x="215" y="505" width="134" height="43"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2noir.png" translatesAutoresizingMaskIntoConstraints="NO" id="kny-di-enT">
-                                <rect key="frame" x="40" y="78" width="240" height="43"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ayO-x8-umT">
                                 <rect key="frame" x="33" y="302" width="139" height="30"/>
                                 <state key="normal" title="Pas encore inscrit ?">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="OJ3-h1-mnk" kind="show" id="s7m-Az-8ny"/>
+                                    <segue destination="OJ3-h1-mnk" kind="show" id="lMq-kq-QRr"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Copyright le Corps &amp; l'Esprit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yn1-Uo-knl">
@@ -62,13 +55,28 @@
                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2noir" translatesAutoresizingMaskIntoConstraints="NO" id="2Xi-fn-3Gk">
+                                <rect key="frame" x="40" y="34" width="240" height="128"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lecorpsetesprit_logo_part1" translatesAutoresizingMaskIntoConstraints="NO" id="SyW-rm-PAQ">
+                                <rect key="frame" x="-5" y="232" width="170" height="109"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lecorpsetesprit_logo_part2" translatesAutoresizingMaskIntoConstraints="NO" id="zgT-J2-ubW">
+                                <rect key="frame" x="173" y="232" width="137" height="109"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="Connexion" destination="5j5-Ra-fX0" id="xH4-8p-XBf"/>
                         <outlet property="Email" destination="9nY-EL-HwA" id="d5L-CU-J9b"/>
+                        <outlet property="Inscription" destination="ayO-x8-umT" id="lQt-9l-l5p"/>
                         <outlet property="Mdp" destination="Rmd-h0-9Qh" id="wGE-X7-mm0"/>
+                        <outlet property="fond" destination="UNR-R9-kyN" id="Z2x-hg-oA0"/>
+                        <outlet property="logpart1" destination="SyW-rm-PAQ" id="OXA-P5-pEy"/>
+                        <outlet property="logpart2" destination="zgT-J2-ubW" id="Air-Bz-6aX"/>
+                        <outlet property="titre" destination="2Xi-fn-3Gk" id="PF0-FK-8Id"/>
                         <segue destination="Ptf-qx-6am" kind="show" identifier="goto_coach" id="G5f-Bu-WkT"/>
                         <segue destination="7LP-Qz-Z1s" kind="show" identifier="goto_client" id="3l9-IT-fZE"/>
                     </connections>
@@ -475,6 +483,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="page-daccueil (1)" translatesAutoresizingMaskIntoConstraints="NO" id="gyK-IU-N9v">
+                                <rect key="frame" x="-347" y="0.0" width="809" height="568"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUC-o7-bYF">
                                 <rect key="frame" x="34" y="28" width="46" height="30"/>
                                 <state key="normal" title="Retour"/>
@@ -482,36 +493,41 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="t2R-gN-W10"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RedBar" translatesAutoresizingMaskIntoConstraints="NO" id="zAf-gz-SBV">
+                                <rect key="frame" x="-305" y="255" width="320" height="5"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GlJ-jJ-eiQ">
-                                <rect key="frame" x="21" y="301" width="278" height="55"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Inscription coach">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <rect key="frame" x="0.0" y="306" width="320" height="80"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
+                                <state key="normal" title="INSCRIPTION CLIENT">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="IsU-p0-JKQ" kind="show" id="j7n-bE-R37"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUa-CX-PSq">
-                                <rect key="frame" x="21" y="135" width="278" height="58"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <rect key="frame" x="0.0" y="174" width="320" height="81"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="28"/>
                                 <size key="titleShadowOffset" width="2.2250738585072014e-308" height="0.0"/>
-                                <state key="normal" title="Inscription particulier">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="INSCRIPTION COACH">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
                                     <segue destination="UDV-WA-4AV" kind="show" id="N8D-dY-VNa"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="page-daccueil.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ahR-Bf-q4L">
-                                <rect key="frame" x="-299" y="0.0" width="712" height="568"/>
-                                <rect key="contentStretch" x="0.90000000000000002" y="0.0" width="0.59999999999999998" height="1"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RedBar" translatesAutoresizingMaskIntoConstraints="NO" id="PtF-G2-DkS">
+                                <rect key="frame" x="-305" y="387" width="320" height="5"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="Red1" destination="zAf-gz-SBV" id="pce-RX-P9E"/>
+                        <outlet property="Red2" destination="PtF-G2-DkS" id="jX8-ig-AzG"/>
+                        <outlet property="fond2" destination="gyK-IU-N9v" id="8No-ke-NIq"/>
                         <outlet property="my_border" destination="QUa-CX-PSq" id="KxY-ds-qS9"/>
                         <outlet property="my_border_b" destination="GlJ-jJ-eiQ" id="6c0-RT-v1m"/>
                     </connections>
@@ -817,7 +833,6 @@
         <!--View Controller-->
         <scene sceneID="LRf-s1-PbS">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="1a5-Z8-fmd" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="sii-e8-d0M" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NkG-Jp-dEJ"/>
@@ -901,6 +916,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1a5-Z8-fmd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1832" y="2941"/>
         </scene>
@@ -1838,19 +1854,22 @@
         </scene>
     </scenes>
     <resources>
-        <image name="2noir.png" width="190" height="36"/>
-        <image name="lecorpsetesprit_logo_mobile.png" width="510" height="169"/>
+        <image name="2noir" width="510" height="97"/>
+        <image name="RedBar" width="300" height="10"/>
+        <image name="lecorpsetesprit_logo_part1" width="190" height="123"/>
+        <image name="lecorpsetesprit_logo_part2" width="190" height="137"/>
         <image name="menu1.png" width="64" height="64"/>
-        <image name="page-daccueil.jpg" width="1057" height="705"/>
+        <image name="page-daccueil (1)" width="1278" height="852"/>
+        <image name="page-daccueil.jpg" width="1278" height="852"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="s7m-Az-8ny"/>
+        <segue reference="ldf-t2-qLo"/>
+        <segue reference="lMq-kq-QRr"/>
         <segue reference="7ys-FA-dnm"/>
-        <segue reference="uJ8-nQ-92Y"/>
         <segue reference="71M-xG-zPq"/>
         <segue reference="b4k-MV-G9Y"/>
         <segue reference="MIM-qe-39M"/>
         <segue reference="vJc-Km-MGW"/>
-        <segue reference="ldf-t2-qLo"/>
+        <segue reference="uJ8-nQ-92Y"/>
     </inferredMetricsTieBreakers>
 </document>

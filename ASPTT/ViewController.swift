@@ -12,6 +12,12 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var Email: UITextField!
     @IBOutlet weak var Mdp: UITextField!
+    @IBOutlet weak var titre: UIImageView!
+    @IBOutlet weak var fond: UIImageView!
+    @IBOutlet weak var logpart1: UIImageView!
+    @IBOutlet weak var logpart2: UIImageView!
+    @IBOutlet weak var Inscription: UIButton!
+    @IBOutlet weak var Connexion: UIButton!
     
     func hideKeyboardWhenTappedAround() {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
@@ -174,6 +180,36 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.hideKeyboardWhenTappedAround()
+        
+        self.titre.alpha = 0.0
+        self.fond.alpha = 0.0
+        self.Email.alpha = 0.0
+        self.Mdp.alpha = 0.0
+        self.Inscription.alpha = 0.0
+        self.Connexion.alpha = 0.0
+        
+        UIView.animateWithDuration(3.0, delay: 1, options: .CurveEaseInOut, animations:
+            {
+                self.titre.alpha = 1
+            }, completion: { finished in})
+        
+        UIView.animateWithDuration(1.0, delay: 0.5, options: .CurveEaseInOut, animations:
+            {
+                self.logpart1.frame = CGRect(x: 78, y: 225, width: 167, height: 110)
+                self.logpart2.frame = CGRect(x: 94, y: 225, width: 141, height: 110)
+            }, completion: { finished in})
+        
+        UIView.animateWithDuration(2, delay: 3, options: .CurveEaseInOut, animations:
+            {
+                self.titre.frame = CGRect(x: 40, y: -10, width: 240, height: 128)
+                self.logpart1.alpha = 0
+                self.logpart2.alpha = 0
+                self.fond.alpha = 0.5
+                self.Email.alpha = 1
+                self.Mdp.alpha = 1
+                self.Inscription.alpha = 1
+                self.Connexion.alpha = 1
+            }, completion: { finished in})
         // Do any additional setup after loading the view, typically from a nib.
     }
 

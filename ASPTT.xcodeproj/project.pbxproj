@@ -36,9 +36,6 @@
 		5DDCC27E1CBD4CEE00DE518C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDCC27C1CBD4CEE00DE518C /* LaunchScreen.storyboard */; };
 		5DDCC2891CBD4CEF00DE518C /* ASPTTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDCC2881CBD4CEF00DE518C /* ASPTTTests.swift */; };
 		5DDCC2941CBD4CEF00DE518C /* ASPTTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDCC2931CBD4CEF00DE518C /* ASPTTUITests.swift */; };
-		5DDCC2A21CBD4D4500DE518C /* page-daccueil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5DDCC2A11CBD4D4500DE518C /* page-daccueil.jpg */; };
-		5DDCC2A41CBD4D4900DE518C /* 2noir.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DDCC2A31CBD4D4900DE518C /* 2noir.png */; };
-		5DDCC2A61CBD4F3000DE518C /* lecorpsetesprit_logo_mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DDCC2A51CBD4F3000DE518C /* lecorpsetesprit_logo_mobile.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,9 +93,6 @@
 		5DDCC28F1CBD4CEF00DE518C /* ASPTTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASPTTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDCC2931CBD4CEF00DE518C /* ASPTTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASPTTUITests.swift; sourceTree = "<group>"; };
 		5DDCC2951CBD4CEF00DE518C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DDCC2A11CBD4D4500DE518C /* page-daccueil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "page-daccueil.jpg"; path = "../../Downloads/page-daccueil.jpg"; sourceTree = "<group>"; };
-		5DDCC2A31CBD4D4900DE518C /* 2noir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2noir.png; path = ../../Downloads/2noir.png; sourceTree = "<group>"; };
-		5DDCC2A51CBD4F3000DE518C /* lecorpsetesprit_logo_mobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lecorpsetesprit_logo_mobile.png; path = ../../Downloads/lecorpsetesprit_logo_mobile.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,9 +127,6 @@
 				5DDCC2871CBD4CEF00DE518C /* ASPTTTests */,
 				5DDCC2921CBD4CEF00DE518C /* ASPTTUITests */,
 				5DDCC2711CBD4CEE00DE518C /* Products */,
-				5DDCC2A11CBD4D4500DE518C /* page-daccueil.jpg */,
-				5DDCC2A31CBD4D4900DE518C /* 2noir.png */,
-				5DDCC2A51CBD4F3000DE518C /* lecorpsetesprit_logo_mobile.png */,
 				5D8494361CC1258A00C30715 /* menu1.png */,
 			);
 			sourceTree = "<group>";
@@ -309,11 +300,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5DDCC2A21CBD4D4500DE518C /* page-daccueil.jpg in Resources */,
 				5DDCC27E1CBD4CEE00DE518C /* LaunchScreen.storyboard in Resources */,
 				5DDCC27B1CBD4CEE00DE518C /* Assets.xcassets in Resources */,
-				5DDCC2A61CBD4F3000DE518C /* lecorpsetesprit_logo_mobile.png in Resources */,
-				5DDCC2A41CBD4D4900DE518C /* 2noir.png in Resources */,
 				5DDCC2791CBD4CEE00DE518C /* Main.storyboard in Resources */,
 				5D8494371CC1258A00C30715 /* menu1.png in Resources */,
 			);
