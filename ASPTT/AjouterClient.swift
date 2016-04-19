@@ -29,7 +29,6 @@ class AjouterClient: UIViewController {
     }
     
     @IBAction func Suivant(sender: AnyObject) {
-         print("caca")
         let email:NSString = Mail.text!
         let prenom:NSString = prenom1.text!
         let nom:NSString = nom1.text!
@@ -40,6 +39,11 @@ class AjouterClient: UIViewController {
         let taille:NSString = tay.text!
         let mdp:NSString = mdp1.text!
         
+        
+        let prefs = NSUserDefaults.standardUserDefaults()
+        let coach = prefs.objectForKey("email") as! String
+        
+        prefs.setObject(email, forKey: "clientencours")
         
         
         if ( email.isEqualToString("") || prenom.isEqualToString("") || nom.isEqualToString("") || dtn.isEqualToString("") || ldn.isEqualToString("") || tel.isEqualToString("") || poids.isEqualToString("") || taille.isEqualToString("") || mdp.isEqualToString("") )
@@ -56,7 +60,8 @@ class AjouterClient: UIViewController {
             json = json + "\", \"nom\": \"" + (nom as String) + "\", \"prenom\": \"" + (prenom as String)
             json = json + "\", \"birthdate\": \"" + (dtn as String) + "\", \"birthplace\": \"" + (ldn as String)
             json = json + "\", \"phone\": \"" + (tel as String) + "\", \"taille\": \"" + (taille as String)
-            json = json + "\", \"poids\": \"" + (poids as String) + "\"}"
+            json = json + "\", \"poids\": \"" + (poids as String)
+            json = json + "\", \"coach\": \"" + coach + "\"}"
             
             
             

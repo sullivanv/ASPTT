@@ -22,6 +22,13 @@
 		5D8494491CC14E3300C30715 /* AjouterClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8494481CC14E3300C30715 /* AjouterClient.swift */; };
 		5D84944B1CC1512A00C30715 /* ListeDesClients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84944A1CC1512A00C30715 /* ListeDesClients.swift */; };
 		5D84944D1CC1524300C30715 /* DebuterSceance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84944C1CC1524300C30715 /* DebuterSceance.swift */; };
+		5D8494511CC633A000C30715 /* EnleveClavier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8494501CC633A000C30715 /* EnleveClavier.swift */; };
+		5D8494531CC64E4E00C30715 /* Question_sport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8494521CC64E4E00C30715 /* Question_sport.swift */; };
+		5D8494551CC6519300C30715 /* Question_sante.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8494541CC6519300C30715 /* Question_sante.swift */; };
+		5D8494571CC6526C00C30715 /* question_alimentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8494561CC6526C00C30715 /* question_alimentation.swift */; };
+		5D8494591CC6532300C30715 /* Question_sommeil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8494581CC6532300C30715 /* Question_sommeil.swift */; };
+		5D84945B1CC6532F00C30715 /* question_eau.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84945A1CC6532E00C30715 /* question_eau.swift */; };
+		5D84945D1CC6533B00C30715 /* question_autre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84945C1CC6533B00C30715 /* question_autre.swift */; };
 		5DDCC2741CBD4CEE00DE518C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDCC2731CBD4CEE00DE518C /* AppDelegate.swift */; };
 		5DDCC2761CBD4CEE00DE518C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDCC2751CBD4CEE00DE518C /* ViewController.swift */; };
 		5DDCC2791CBD4CEE00DE518C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDCC2771CBD4CEE00DE518C /* Main.storyboard */; };
@@ -69,6 +76,13 @@
 		5D8494481CC14E3300C30715 /* AjouterClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AjouterClient.swift; sourceTree = "<group>"; };
 		5D84944A1CC1512A00C30715 /* ListeDesClients.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListeDesClients.swift; sourceTree = "<group>"; };
 		5D84944C1CC1524300C30715 /* DebuterSceance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebuterSceance.swift; sourceTree = "<group>"; };
+		5D8494501CC633A000C30715 /* EnleveClavier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnleveClavier.swift; sourceTree = "<group>"; };
+		5D8494521CC64E4E00C30715 /* Question_sport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question_sport.swift; sourceTree = "<group>"; };
+		5D8494541CC6519300C30715 /* Question_sante.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question_sante.swift; sourceTree = "<group>"; };
+		5D8494561CC6526C00C30715 /* question_alimentation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = question_alimentation.swift; sourceTree = "<group>"; };
+		5D8494581CC6532300C30715 /* Question_sommeil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question_sommeil.swift; sourceTree = "<group>"; };
+		5D84945A1CC6532E00C30715 /* question_eau.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = question_eau.swift; sourceTree = "<group>"; };
+		5D84945C1CC6533B00C30715 /* question_autre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = question_autre.swift; sourceTree = "<group>"; };
 		5DDCC2701CBD4CEE00DE518C /* ASPTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASPTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDCC2731CBD4CEE00DE518C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DDCC2751CBD4CEE00DE518C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -142,6 +156,7 @@
 				5DDCC2731CBD4CEE00DE518C /* AppDelegate.swift */,
 				5DDCC2751CBD4CEE00DE518C /* ViewController.swift */,
 				5DDCC2771CBD4CEE00DE518C /* Main.storyboard */,
+				5D8494501CC633A000C30715 /* EnleveClavier.swift */,
 				5D8494461CC14CE900C30715 /* CoachViewController.swift */,
 				5D84943C1CC1385C00C30715 /* InfoClient.swift */,
 				5D84943E1CC1387400C30715 /* PlanningClient.swift */,
@@ -161,6 +176,12 @@
 				5D8494481CC14E3300C30715 /* AjouterClient.swift */,
 				5D84944A1CC1512A00C30715 /* ListeDesClients.swift */,
 				5D84944C1CC1524300C30715 /* DebuterSceance.swift */,
+				5D8494521CC64E4E00C30715 /* Question_sport.swift */,
+				5D8494541CC6519300C30715 /* Question_sante.swift */,
+				5D8494561CC6526C00C30715 /* question_alimentation.swift */,
+				5D8494581CC6532300C30715 /* Question_sommeil.swift */,
+				5D84945A1CC6532E00C30715 /* question_eau.swift */,
+				5D84945C1CC6533B00C30715 /* question_autre.swift */,
 			);
 			path = ASPTT;
 			sourceTree = "<group>";
@@ -322,14 +343,21 @@
 				5D8494311CBFF5D900C30715 /* Planning.swift in Sources */,
 				5D8494411CC138A200C30715 /* ReservationClient.swift in Sources */,
 				5D84944B1CC1512A00C30715 /* ListeDesClients.swift in Sources */,
+				5D84945B1CC6532F00C30715 /* question_eau.swift in Sources */,
 				5DDCC2761CBD4CEE00DE518C /* ViewController.swift in Sources */,
 				5D8494431CC138B900C30715 /* SuiviClient.swift in Sources */,
 				5D8494451CC138C900C30715 /* OutilsClient.swift in Sources */,
+				5D8494511CC633A000C30715 /* EnleveClavier.swift in Sources */,
 				5D84943D1CC1385C00C30715 /* InfoClient.swift in Sources */,
+				5D8494531CC64E4E00C30715 /* Question_sport.swift in Sources */,
 				5D8494471CC14CE900C30715 /* CoachViewController.swift in Sources */,
+				5D8494571CC6526C00C30715 /* question_alimentation.swift in Sources */,
+				5D8494591CC6532300C30715 /* Question_sommeil.swift in Sources */,
 				5D8494291CBFC3F800C30715 /* BackTableVC.swift in Sources */,
+				5D8494551CC6519300C30715 /* Question_sante.swift in Sources */,
 				5D8494211CBE398400C30715 /* test.swift in Sources */,
 				5D84943F1CC1387400C30715 /* PlanningClient.swift in Sources */,
+				5D84945D1CC6533B00C30715 /* question_autre.swift in Sources */,
 				5DDCC2741CBD4CEE00DE518C /* AppDelegate.swift in Sources */,
 				5D84944D1CC1524300C30715 /* DebuterSceance.swift in Sources */,
 				5D8494491CC14E3300C30715 /* AjouterClient.swift in Sources */,

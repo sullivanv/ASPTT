@@ -13,7 +13,7 @@ class PlanningCoach: UIViewController {
     @IBOutlet weak var MenuButton: UIBarButtonItem!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         if self.revealViewController() != nil {
             MenuButton.target = self.revealViewController()
             MenuButton.action = "revealToggle:"
