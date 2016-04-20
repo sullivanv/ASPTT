@@ -555,10 +555,6 @@
                                     <segue destination="OJ3-h1-mnk" kind="show" id="O42-J6-nNx"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="page-daccueil.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="IyW-t8-ViF">
-                                <rect key="frame" x="-313" y="0.0" width="712" height="568"/>
-                                <rect key="contentStretch" x="0.90000000000000002" y="0.0" width="0.59999999999999998" height="1"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1623,10 +1619,6 @@
                                     <segue destination="OJ3-h1-mnk" kind="show" id="Fuw-y7-4Ul"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" alpha="0.25" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="page-daccueil.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="wDk-qF-hwp">
-                                <rect key="frame" x="-312" y="0.0" width="712" height="568"/>
-                                <rect key="contentStretch" x="0.90000000000000002" y="0.0" width="0.59999999999999998" height="1"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1845,13 +1837,6 @@
             </objects>
             <point key="canvasLocation" x="947" y="4979"/>
         </scene>
-        <!--AV Player View Controller-->
-        <scene sceneID="wyX-AS-4OJ">
-            <objects>
-                <avPlayerViewController videoGravity="AVLayerVideoGravityResizeAspect" id="XE1-Lg-Dol" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Maz-1Y-I4z" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-        </scene>
     </scenes>
     <resources>
         <image name="2noir" width="510" height="97"/>
@@ -1860,11 +1845,10 @@
         <image name="lecorpsetesprit_logo_part2" width="190" height="137"/>
         <image name="menu1.png" width="64" height="64"/>
         <image name="page-daccueil (1)" width="1278" height="852"/>
-        <image name="page-daccueil.jpg" width="1278" height="852"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="Fuw-y7-4Ul"/>
         <segue reference="ldf-t2-qLo"/>
-        <segue reference="lMq-kq-QRr"/>
         <segue reference="7ys-FA-dnm"/>
         <segue reference="71M-xG-zPq"/>
         <segue reference="b4k-MV-G9Y"/>
