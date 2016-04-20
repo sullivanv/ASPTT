@@ -17,6 +17,38 @@
             endingLineNumber = "11"
             landmarkName = "AjouterClient"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASPTT.AjouterClient.__deallocating_deinit"
+                  moduleName = "ASPTT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitiel_s/Desktop/ASPTT/ASPTT/AjouterClient.swift"
+                  timestampString = "482854615.025595"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ASPTT.AjouterClient.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; ASPTT.AjouterClient"
+                  moduleName = "ASPTT"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vitiel_s/Desktop/ASPTT/ASPTT/AjouterClient.swift"
+                  timestampString = "482854615.025767"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "392">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
