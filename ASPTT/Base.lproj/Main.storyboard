@@ -277,6 +277,25 @@
                     <view key="view" contentMode="scaleToFill" id="g13-zV-T7L">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8aY-29-Lbk">
+                                <rect key="frame" x="80" y="204" width="160" height="160"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6yP-MQ-qZt">
+                                <rect key="frame" x="0.0" y="64" width="320" height="5"/>
+                                <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jeQ-7n-RFS">
+                                <rect key="frame" x="0.0" y="563" width="320" height="5"/>
+                                <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pour debuter la séance, le coach doit flasher ce code :" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="plR-Jz-o7p">
+                                <rect key="frame" x="53" y="109" width="214" height="47"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Mes informations" id="zGH-p2-7nv">
@@ -288,6 +307,7 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="MenuButton" destination="USp-A9-KKT" id="k0i-72-nk8"/>
+                        <outlet property="img" destination="8aY-29-Lbk" id="seg-bm-nah"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kid-aK-UmF" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1969,6 +1989,15 @@
                     <view key="view" contentMode="scaleToFill" id="ToW-YA-JkL">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Aucun QR Code detecté" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4GO-7w-HZn">
+                                <rect key="frame" x="0.0" y="520" width="320" height="48"/>
+                                <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Debuter sceance !" id="XhC-Oz-lf5">
@@ -1979,6 +2008,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="MenuButton" destination="xPh-1F-24G" id="Vdx-6G-TgL"/>
+                        <outlet property="messageLabel" destination="4GO-7w-HZn" id="9Yy-G3-X8S"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fl7-gO-yTO" userLabel="First Responder" sceneMemberID="firstResponder"/>
