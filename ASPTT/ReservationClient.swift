@@ -36,7 +36,6 @@ class ReservationClient: UIViewController {
         let prefs = NSUserDefaults.standardUserDefaults()
         
         
-        
         let v_heure = heure.text!
         
         let v_date = date.text!
@@ -244,6 +243,8 @@ class ReservationClient: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        let prefs = NSUserDefaults.standardUserDefaults()
+        coach.text = prefs.objectForKey("coach") as! String!
         
         
         

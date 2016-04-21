@@ -100,7 +100,6 @@ class ViewController: UIViewController {
                     let jsonData:NSDictionary = try NSJSONSerialization.JSONObjectWithData(urlData!, options:NSJSONReadingOptions.MutableContainers ) as! NSDictionary
                     
                     let success:NSInteger = jsonData.valueForKey("role") as! NSInteger
-    
     //[jsonData[@"success"] integerValue];
                     NSLog("Success: %ld", success);
                     if(success == 1)
@@ -119,7 +118,9 @@ class ViewController: UIViewController {
                         NSLog("Login SUCCESS");
                         
                         let prefs:NSUserDefaults = NSUserDefaults.standardUserDefaults()
+                         let coach = jsonData.valueForKey("coach") as! String
                         prefs.setObject(username, forKey: "email")
+                        prefs.setObject(coach, forKey: "coach")
                         prefs.setInteger(1, forKey: "LOGGEDAS")
                         prefs.synchronize()
                         self.performSegueWithIdentifier("goto_client", sender: self)

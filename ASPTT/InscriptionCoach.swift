@@ -1,23 +1,20 @@
 //
-//  AjouterClient.swift
+//  InscriptionCoach.swift
 //  ASPTT
 //
-//  Created by Sullivan VITIELLO on 15/04/16.
+//  Created by Sullivan VITIELLO on 21/04/16.
 //  Copyright © 2016 Sullivan VITIELLO. All rights reserved.
 //
 
 import Foundation
 
-class AjouterClient: UIViewController {
+class InscriptionCoach: UIViewController {
+   
     @IBOutlet weak var Mail: UITextField!
-    @IBOutlet weak var nom1: UITextField!
-    @IBOutlet weak var prenom1: UITextField!
-    @IBOutlet weak var datedenaissance: UITextField!
-    @IBOutlet weak var lieudenaissance: UITextField!
     @IBOutlet weak var telephone: UITextField!
-    @IBOutlet weak var tay: UITextField!
-    @IBOutlet weak var poa: UITextField!
     @IBOutlet weak var mdp1: UITextField!
+    @IBOutlet weak var prenom1: UITextField!
+    @IBOutlet weak var nom1: UITextField!
     
     func hideKeyboardWhenTappedAround() {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
@@ -28,25 +25,22 @@ class AjouterClient: UIViewController {
         view.endEditing(true)
     }
     
-    @IBAction func Suivant(sender: AnyObject) {
+
+    @IBAction func suiv(sender: AnyObject) {
         let email:NSString = Mail.text!
         let prenom:NSString = prenom1.text!
         let nom:NSString = nom1.text!
-        let dtn:NSString = datedenaissance.text!
-        let ldn:NSString = lieudenaissance.text!
         let tel:NSString = telephone.text!
-        let poids:NSString = poa.text!
-        let taille:NSString = tay.text!
         let mdp:NSString = mdp1.text!
         
         
-        let prefs = NSUserDefaults.standardUserDefaults()
-        let coach = prefs.objectForKey("email") as! String
+//        let prefs = NSUserDefaults.standardUserDefaults()
+ //       let coach = prefs.objectForKey("email") as! String
+  //
+  //      prefs.setObject(email, forKey: "clientencours")
         
-        prefs.setObject(email, forKey: "clientencours")
         
-        
-        if ( email.isEqualToString("") || prenom.isEqualToString("") || nom.isEqualToString("") || dtn.isEqualToString("") || ldn.isEqualToString("") || tel.isEqualToString("") || poids.isEqualToString("") || taille.isEqualToString("") || mdp.isEqualToString("") )
+        if ( email.isEqualToString("") || prenom.isEqualToString("") || nom.isEqualToString("") || tel.isEqualToString("") || mdp.isEqualToString("") )
         {
             let alertView:UIAlertView = UIAlertView()
             alertView.title = "Erreur"
@@ -58,10 +52,14 @@ class AjouterClient: UIViewController {
         else{
             var json = "{\"email\": \"" + (email as String) + "\", \"password\": \"" + (mdp as String)// + "\"}"
             json = json + "\", \"nom\": \"" + (nom as String) + "\", \"prenom\": \"" + (prenom as String)
-            json = json + "\", \"birthdate\": \"" + (dtn as String) + "\", \"birthplace\": \"" + (ldn as String)
-            json = json + "\", \"phone\": \"" + (tel as String) + "\", \"taille\": \"" + (taille as String)
-            json = json + "\", \"poids\": \"" + (poids as String)
-            json = json + "\", \"coach\": \"" + coach + "\"}"
+            json = json + "\", \"phone\": \"" + (tel as String)
+            json = json + "\", \"role\": \"" + "1" + "\"}"
+            
+            
+            
+            
+            
+            
             
             do {
                 let post:NSString = "json=\(json)"
@@ -113,12 +111,16 @@ class AjouterClient: UIViewController {
                         NSLog("Success: %ld", success);
                         if(success == 0)
                         {
+                            let prefs:NSUserDefaults = NSUserDefaults.standardUserDefaults()
+                            prefs.setObject(email, forKey: "email")
                             let alertView:UIAlertView = UIAlertView()
                             alertView.title = "Bravo"
-                            alertView.message = "L'inscription de " + (prenom as String) + " " + (nom as String) + " a ete effectue avec succes !"
+                            alertView.message = "Vous etes maintenant un coach certifie Le corps et l'esprit"
                             alertView.delegate = self
                             alertView.addButtonWithTitle("OK")
                             alertView.show()
+                        self.performSegueWithIdentifier("goto_coachpage", sender: self)
+                            print("OUUI")
                         }
                         else {
                             var error_msg:NSString
@@ -164,16 +166,6 @@ class AjouterClient: UIViewController {
                 alertView.addButtonWithTitle("OK")
                 alertView.show()
             }
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            self.performSegueWithIdentifier("goto_ins1", sender: self)
         }
     }
     
@@ -185,7 +177,7 @@ class AjouterClient: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         self.hideKeyboardWhenTappedAround()
-
+        
         
         if self.revealViewController() != nil {
             MenuButton.target = self.revealViewController()
@@ -194,5 +186,4 @@ class AjouterClient: UIViewController {
         }
         // Do any additional setup after loading the view, typically from a nib.
     }
-    
 }

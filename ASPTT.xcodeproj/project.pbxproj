@@ -30,6 +30,8 @@
 		5D84945B1CC6532F00C30715 /* question_eau.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84945A1CC6532E00C30715 /* question_eau.swift */; };
 		5D84945D1CC6533B00C30715 /* question_autre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84945C1CC6533B00C30715 /* question_autre.swift */; };
 		5D84945F1CC8CB2100C30715 /* TimerSeance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84945E1CC8CB2100C30715 /* TimerSeance.swift */; };
+		5D8494691CC9276500C30715 /* InscriptionCoach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D8494681CC9276500C30715 /* InscriptionCoach.swift */; };
+		5D84946B1CC9277400C30715 /* InscriptionClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D84946A1CC9277400C30715 /* InscriptionClient.swift */; };
 		5DDCC2741CBD4CEE00DE518C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDCC2731CBD4CEE00DE518C /* AppDelegate.swift */; };
 		5DDCC2761CBD4CEE00DE518C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDCC2751CBD4CEE00DE518C /* ViewController.swift */; };
 		5DDCC2791CBD4CEE00DE518C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDCC2771CBD4CEE00DE518C /* Main.storyboard */; };
@@ -84,6 +86,8 @@
 		5D84945A1CC6532E00C30715 /* question_eau.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = question_eau.swift; sourceTree = "<group>"; };
 		5D84945C1CC6533B00C30715 /* question_autre.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = question_autre.swift; sourceTree = "<group>"; };
 		5D84945E1CC8CB2100C30715 /* TimerSeance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerSeance.swift; sourceTree = "<group>"; };
+		5D8494681CC9276500C30715 /* InscriptionCoach.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InscriptionCoach.swift; sourceTree = "<group>"; };
+		5D84946A1CC9277400C30715 /* InscriptionClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InscriptionClient.swift; sourceTree = "<group>"; };
 		5DDCC2701CBD4CEE00DE518C /* ASPTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASPTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDCC2731CBD4CEE00DE518C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5DDCC2751CBD4CEE00DE518C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -182,6 +186,8 @@
 				5D84945E1CC8CB2100C30715 /* TimerSeance.swift */,
 				C2E292A81CC9107B004B26D5 /* TimerViewController.swift */,
 				C2E292AA1CC91793004B26D5 /* MinuteurViewController.swift */,
+				5D8494681CC9276500C30715 /* InscriptionCoach.swift */,
+				5D84946A1CC9277400C30715 /* InscriptionClient.swift */,
 			);
 			path = ASPTT;
 			sourceTree = "<group>";
@@ -341,6 +347,7 @@
 				5D8494311CBFF5D900C30715 /* Planning.swift in Sources */,
 				5D8494411CC138A200C30715 /* ReservationClient.swift in Sources */,
 				5D84944B1CC1512A00C30715 /* ListeDesClients.swift in Sources */,
+				5D8494691CC9276500C30715 /* InscriptionCoach.swift in Sources */,
 				5D84945B1CC6532F00C30715 /* question_eau.swift in Sources */,
 				5DDCC2761CBD4CEE00DE518C /* ViewController.swift in Sources */,
 				5D8494431CC138B900C30715 /* SuiviClient.swift in Sources */,
@@ -363,6 +370,7 @@
 				5D8494491CC14E3300C30715 /* AjouterClient.swift in Sources */,
 				5D8494251CBF964A00C30715 /* SWRevealViewController.m in Sources */,
 				5D8494391CC1325400C30715 /* ClientViewController.swift in Sources */,
+				5D84946B1CC9277400C30715 /* InscriptionClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
