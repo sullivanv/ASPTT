@@ -32,7 +32,7 @@
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5j5-Ra-fX0">
-                                <rect key="frame" x="215" y="302" width="77" height="30"/>
+                                <rect key="frame" x="210" y="280" width="77" height="30"/>
                                 <state key="normal" title="Connexion">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -41,7 +41,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ayO-x8-umT">
-                                <rect key="frame" x="33" y="302" width="139" height="30"/>
+                                <rect key="frame" x="33" y="280" width="139" height="30"/>
                                 <state key="normal" title="Pas encore inscrit ?">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -282,11 +282,11 @@
                                 <rect key="frame" x="80" y="204" width="160" height="160"/>
                             </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6yP-MQ-qZt">
-                                <rect key="frame" x="0.0" y="64" width="320" height="5"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="10"/>
                                 <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jeQ-7n-RFS">
-                                <rect key="frame" x="0.0" y="563" width="320" height="5"/>
+                                <rect key="frame" x="0.0" y="558" width="320" height="10"/>
                                 <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pour debuter la séance, le coach doit flasher ce code :" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="plR-Jz-o7p">
@@ -296,7 +296,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Mes informations" id="zGH-p2-7nv">
                         <barButtonItem key="leftBarButtonItem" image="menu1.png" id="USp-A9-KKT">
@@ -347,11 +347,11 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ogd-w6-1Pp">
-                                <rect key="frame" x="0.0" y="64" width="320" height="5"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="10"/>
                                 <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xx8-oq-akY">
-                                <rect key="frame" x="0.0" y="434" width="320" height="70"/>
+                                <rect key="frame" x="0.0" y="498" width="320" height="70"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f0d-Ns-B2V">
                                         <rect key="frame" x="119" y="18" width="82" height="35"/>
@@ -364,10 +364,6 @@
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GCu-2t-gtz">
-                                <rect key="frame" x="0.0" y="563" width="320" height="5"/>
                                 <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
@@ -405,20 +401,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pZl-EA-ACR">
-                                <rect key="frame" x="0.0" y="565" width="320" height="3"/>
+                                <rect key="frame" x="0.0" y="558" width="320" height="10"/>
                                 <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mes prochaines seances:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nh2-Pr-rfW">
-                                <rect key="frame" x="46" y="82" width="228" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PROCHAINES SEANCES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nh2-Pr-rfW">
+                                <rect key="frame" x="51" y="82" width="218" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m8V-wV-7bL">
-                                <rect key="frame" x="0.0" y="123" width="320" height="99"/>
+                                <rect key="frame" x="0.0" y="234" width="320" height="99"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vUl-zM-bUn">
                                         <rect key="frame" x="33" y="8" width="255" height="83"/>
@@ -429,6 +425,27 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lZe-kL-tNt">
+                                <rect key="frame" x="0.0" y="64" width="320" height="10"/>
+                                <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="dQy-Va-QZu">
+                                <rect key="frame" x="0.0" y="336" width="320" height="3"/>
+                                <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ZVb-Sc-8Hv">
+                                <rect key="frame" x="0.0" y="228" width="320" height="3"/>
+                                <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -466,8 +483,22 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BCI-rA-n7R">
+                                <rect key="frame" x="0.0" y="64" width="320" height="10"/>
+                                <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4qz-et-uzA">
+                                <rect key="frame" x="0.0" y="558" width="320" height="10"/>
+                                <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Mon suivi" id="gel-hu-jWe">
                         <barButtonItem key="leftBarButtonItem" image="menu1.png" id="IpB-2o-1fM">
@@ -533,7 +564,7 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.92628205129999996" green="0.92628205129999996" blue="0.92628205129999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Mes outils" id="O0Z-D3-Oab">
                         <barButtonItem key="leftBarButtonItem" image="menu1.png" id="edy-Go-7ji">
@@ -660,7 +691,7 @@
                                 <color key="backgroundColor" red="0.92628205129999996" green="0.92628205129999996" blue="0.92628205129999996" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="0.92628205129999996" green="0.92628205129999996" blue="0.92628205129999996" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
@@ -822,7 +853,7 @@
                                         <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
                                 </subviews>
-                                <color key="backgroundColor" red="0.92628205129999996" green="0.92628205129999996" blue="0.92628205129999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.92628205129999996" green="0.92628205129999996" blue="0.92628205129999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -952,13 +983,6 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="page-daccueil (1)" translatesAutoresizingMaskIntoConstraints="NO" id="gyK-IU-N9v">
                                 <rect key="frame" x="-347" y="0.0" width="809" height="568"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUC-o7-bYF">
-                                <rect key="frame" x="34" y="28" width="46" height="30"/>
-                                <state key="normal" title="Retour"/>
-                                <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="t2R-gN-W10"/>
-                                </connections>
-                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RedBar" translatesAutoresizingMaskIntoConstraints="NO" id="zAf-gz-SBV">
                                 <rect key="frame" x="-305" y="255" width="320" height="5"/>
                             </imageView>
@@ -986,6 +1010,15 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="RedBar" translatesAutoresizingMaskIntoConstraints="NO" id="PtF-G2-DkS">
                                 <rect key="frame" x="-305" y="387" width="320" height="5"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUC-o7-bYF">
+                                <rect key="frame" x="20" y="34" width="59" height="30"/>
+                                <state key="normal" title="RETOUR">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="t2R-gN-W10"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1014,16 +1047,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="page-daccueil (1)" translatesAutoresizingMaskIntoConstraints="NO" id="k0y-31-yYe">
-                                <rect key="frame" x="-324" y="0.0" width="809" height="568"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4D-wZ-THe">
-                                <rect key="frame" x="20" y="28" width="47" height="30"/>
-                                <state key="normal" title="Retour"/>
-                                <connections>
-                                    <segue destination="OJ3-h1-mnk" kind="show" id="O42-J6-nNx"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="zoA-bJ-86B">
                                 <rect key="frame" x="21" y="218" width="278" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -1069,15 +1092,53 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cS-3d-hG8">
-                                <rect key="frame" x="133" y="338" width="57" height="30"/>
-                                <state key="normal" title="Suivant"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4vv-2p-9Vg" userLabel="RedBarnext">
+                                <rect key="frame" x="0.0" y="510" width="320" height="58"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cS-3d-hG8">
+                                        <rect key="frame" x="119" y="11" width="83" height="36"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                        <state key="normal" title="SUIVANT">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="Suivant:" destination="Kf3-Ho-wo9" eventType="touchUpInside" id="lvT-ia-fRQ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="INSCRIPTION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icV-DN-gr8">
+                                <rect key="frame" x="96" y="37" width="128" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="qyU-25-cec">
+                                <rect key="frame" x="236" y="47" width="84" height="2"/>
+                                <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ghD-a9-hqz">
+                                <rect key="frame" x="0.0" y="47" width="84" height="2"/>
+                                <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4D-wZ-THe">
+                                <rect key="frame" x="7" y="19" width="59" height="30"/>
+                                <state key="normal" title="RETOUR">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
-                                    <action selector="Suivant:" destination="Kf3-Ho-wo9" eventType="touchUpInside" id="lvT-ia-fRQ"/>
+                                    <segue destination="OJ3-h1-mnk" kind="show" id="O42-J6-nNx"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
@@ -1424,6 +1485,7 @@
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="Mail" destination="TFa-gv-A1F" id="5gM-Uc-3Rk"/>
                         <outlet property="MenuButton" destination="TX5-GP-HNW" id="Ouz-m7-oFK"/>
@@ -1653,6 +1715,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="qu1" destination="QFs-gI-eHm" id="Qwa-AY-BCo"/>
                         <outlet property="qu2" destination="Bmx-9V-2d2" id="J2k-8W-piW"/>
@@ -2265,6 +2328,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="MenuButton" destination="3zf-UQ-a5q" id="6S9-iv-i3K"/>
                         <outlet property="hide" destination="jHQ-GU-wP7" id="TFb-1n-Kgj"/>
@@ -2287,14 +2351,14 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mes prochaines seances:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Hh-VU-g2b">
-                                <rect key="frame" x="46" y="82" width="228" height="24"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PROCHAINES SEANCES" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Hh-VU-g2b">
+                                <rect key="frame" x="51" y="82" width="218" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kRH-7X-iQa">
-                                <rect key="frame" x="0.0" y="123" width="320" height="99"/>
+                                <rect key="frame" x="0.0" y="134" width="320" height="99"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nMW-Kc-YMY">
                                         <rect key="frame" x="33" y="8" width="255" height="83"/>
@@ -2306,14 +2370,38 @@
                                 <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EUi-PG-24p">
-                                <rect key="frame" x="0.0" y="565" width="320" height="3"/>
+                                <rect key="frame" x="0.0" y="566" width="320" height="2"/>
                                 <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Zmo-Vu-8wq">
+                                <rect key="frame" x="0.0" y="64" width="320" height="2"/>
+                                <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="BIs-QR-qRQ">
+                                <rect key="frame" x="0.0" y="235" width="320" height="3"/>
+                                <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="7GB-TL-rOW">
+                                <rect key="frame" x="0.0" y="129" width="320" height="3"/>
+                                <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="running" translatesAutoresizingMaskIntoConstraints="NO" id="MW7-iz-pm1">
+                                <rect key="frame" x="95" y="317" width="130" height="130"/>
+                            </imageView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Mon planning" id="Bn1-Qv-dDh">
                         <barButtonItem key="leftBarButtonItem" image="menu1.png" id="h7R-Ga-5g4">
@@ -2321,6 +2409,7 @@
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="MenuButton" destination="h7R-Ga-5g4" id="9et-9d-7co"/>
                         <outlet property="my_heure" destination="nMW-Kc-YMY" id="gmc-PD-MIT"/>
@@ -2349,8 +2438,12 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="z8C-Q1-DKl" userLabel="RedBartop">
+                                <rect key="frame" x="0.0" y="64" width="320" height="10"/>
+                                <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" title="Debuter sceance !" id="XhC-Oz-lf5">
                         <barButtonItem key="leftBarButtonItem" image="menu1.png" id="xPh-1F-24G">
@@ -2358,6 +2451,7 @@
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="MenuButton" destination="xPh-1F-24G" id="Vdx-6G-TgL"/>
                         <outlet property="messageLabel" destination="4GO-7w-HZn" id="9Yy-G3-X8S"/>
@@ -2381,20 +2475,20 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yHo-8c-GqF" userLabel="RedBartop">
-                                <rect key="frame" x="0.0" y="558" width="320" height="10"/>
+                                <rect key="frame" x="0.0" y="564" width="320" height="4"/>
                                 <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BiK-JW-DQb" userLabel="RedBartop">
-                                <rect key="frame" x="0.0" y="64" width="320" height="10"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="5"/>
                                 <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="owv-4a-EQc">
-                                <rect key="frame" x="0.0" y="464" width="320" height="84"/>
+                                <rect key="frame" x="0.0" y="436" width="320" height="79"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KyV-KN-uhk">
-                                        <rect key="frame" x="94" y="27" width="133" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <state key="normal" title="Finir seance !">
+                                        <rect key="frame" x="94" y="20" width="133" height="33"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                        <state key="normal" title="FIN SEANCE">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
@@ -2404,27 +2498,21 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yQz-1N-u11">
-                                <rect key="frame" x="20" y="82" width="280" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ypm-6u-i8s">
                                 <rect key="frame" x="0.0" y="131" width="320" height="79"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgM-F8-4LR">
-                                        <rect key="frame" x="84" y="25" width="153" height="30"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="18"/>
-                                        <state key="normal" title="Debuter seance !">
-                                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <rect key="frame" x="84" y="23" width="153" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <state key="normal" title="DEBUT SEANCE">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
                                             <action selector="DebuterSeance:" destination="glD-dO-iKH" eventType="touchUpInside" id="Y7t-UR-iCd"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.56372052282604546" green="1" blue="0.088892554913310273" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="La seance a commencé depuis :" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TxT-1s-Thh">
                                 <rect key="frame" x="20" y="258" width="280" height="21"/>
@@ -2467,6 +2555,12 @@
                                     </label>
                                 </subviews>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yQz-1N-u11">
+                                <rect key="frame" x="20" y="82" width="280" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
@@ -2498,50 +2592,79 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" alpha="0.59999999999999998" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="page-daccueil (1)" translatesAutoresizingMaskIntoConstraints="NO" id="BhL-cZ-8At">
-                                <rect key="frame" x="-325" y="0.0" width="809" height="568"/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M6T-Yd-vvU">
-                                <rect key="frame" x="20" y="28" width="48" height="30"/>
-                                <state key="normal" title="Retour"/>
-                                <connections>
-                                    <segue destination="OJ3-h1-mnk" kind="show" id="Fuw-y7-4Ul"/>
-                                </connections>
-                            </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Mot de passe" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N3K-Rl-Kat">
-                                <rect key="frame" x="20" y="185" width="278" height="30"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
-                            </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nom" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rsr-yG-piZ">
-                                <rect key="frame" x="20" y="66" width="118" height="30"/>
+                                <rect key="frame" x="20" y="249" width="278" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Prenom" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tXs-2c-4iE">
-                                <rect key="frame" x="180" y="66" width="118" height="30"/>
+                                <rect key="frame" x="180" y="135" width="118" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="j6Y-GM-wwa">
-                                <rect key="frame" x="20" y="104" width="278" height="30"/>
+                                <rect key="frame" x="22" y="173" width="278" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Telephone" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rkQ-xf-1vT">
-                                <rect key="frame" x="20" y="144" width="278" height="30"/>
+                                <rect key="frame" x="22" y="211" width="278" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dfa-r0-gpY">
-                                <rect key="frame" x="131" y="234" width="57" height="30"/>
-                                <state key="normal" title="Suivant"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DNi-tW-Hrn" userLabel="RedBarnext">
+                                <rect key="frame" x="0.0" y="510" width="320" height="58"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dfa-r0-gpY">
+                                        <rect key="frame" x="119" y="14" width="83" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <state key="normal" title="SUIVANT">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="suiv:" destination="UDV-WA-4AV" eventType="touchUpInside" id="oyZ-98-MXS"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Nom" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Rsr-yG-piZ">
+                                <rect key="frame" x="20" y="135" width="118" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="INSCRIPTION" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3by-GO-0On">
+                                <rect key="frame" x="97" y="72" width="128" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MBC-0f-xLI">
+                                <rect key="frame" x="0.0" y="82" width="84" height="2"/>
+                                <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DI4-70-Hdc">
+                                <rect key="frame" x="236" y="82" width="84" height="2"/>
+                                <color key="backgroundColor" red="0.80784313730000001" green="0.0" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M6T-Yd-vvU">
+                                <rect key="frame" x="10" y="35" width="64" height="22"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="RETOUR">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
                                 <connections>
-                                    <action selector="suiv:" destination="UDV-WA-4AV" eventType="touchUpInside" id="oyZ-98-MXS"/>
+                                    <segue destination="OJ3-h1-mnk" kind="show" id="Fuw-y7-4Ul"/>
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
@@ -2798,20 +2921,21 @@
         <image name="page-daccueil (1)" width="1278" height="852"/>
         <image name="photoProfil" width="128" height="128"/>
         <image name="profilIMG" width="128" height="128"/>
+        <image name="running" width="128" height="128"/>
         <image name="timer" width="256" height="256"/>
         <image name="topProfil" width="640" height="400"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="Isi-GZ-D26"/>
+        <segue reference="uJ8-nQ-92Y"/>
         <segue reference="Cna-dz-Wxv"/>
         <segue reference="Fuw-y7-4Ul"/>
         <segue reference="t2R-gN-W10"/>
         <segue reference="ldf-t2-qLo"/>
-        <segue reference="ykO-G7-Pml"/>
-        <segue reference="3aZ-wl-SO9"/>
-        <segue reference="Q8D-0c-Z9x"/>
         <segue reference="12R-CP-SfP"/>
         <segue reference="7ys-FA-dnm"/>
+        <segue reference="ykO-G7-Pml"/>
         <segue reference="Gpr-6i-pDf"/>
-        <segue reference="QRO-7b-mz6"/>
+        <segue reference="Q8D-0c-Z9x"/>
     </inferredMetricsTieBreakers>
 </document>
