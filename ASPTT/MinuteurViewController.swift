@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class MinuteurViewController:UIViewController {
 
@@ -28,6 +29,7 @@ class MinuteurViewController:UIViewController {
     var StockCount2:Int?
     var StockCount3:Int?
     var timer1 = NSTimer()
+    var audioPlayer = AVAudioPlayer()
     
     func updateCounter1() {
         if (StockCount > -1)
@@ -91,6 +93,10 @@ class MinuteurViewController:UIViewController {
             self.viewtextfield.alpha = 1
             self.clear.alpha = 0
         }
+        if (StockCount3 == 0 && StockCount2 == 0 && StockCount < 5 && StockCount > 0)
+        {
+            audioPlayer.play()
+        }
     }
     
 
@@ -146,6 +152,20 @@ class MinuteurViewController:UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let alertSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("sonnerie-beep", ofType: "mp3")!)
+        
+        do {
+            try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+            try AVAudioSession.sharedInstance().setActive(true)
+            
+            try audioPlayer = AVAudioPlayer(contentsOfURL: alertSound)
+        } catch _ as NSError {
+            
+        }
+        
+        audioPlayer.prepareToPlay()
+        print(audioPlayer.duration)
         // Do any additional setup after loading the view, typically from a nib.
     }
     

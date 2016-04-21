@@ -41,6 +41,7 @@
 		5DDCC2941CBD4CEF00DE518C /* ASPTTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDCC2931CBD4CEF00DE518C /* ASPTTUITests.swift */; };
 		C2E292A91CC9107B004B26D5 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E292A81CC9107B004B26D5 /* TimerViewController.swift */; };
 		C2E292AB1CC91793004B26D5 /* MinuteurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E292AA1CC91793004B26D5 /* MinuteurViewController.swift */; };
+		C2E292AF1CC97D20004B26D5 /* sonnerie-beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C2E292AE1CC97D20004B26D5 /* sonnerie-beep.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,7 @@
 		5DDCC2951CBD4CEF00DE518C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C2E292A81CC9107B004B26D5 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		C2E292AA1CC91793004B26D5 /* MinuteurViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinuteurViewController.swift; sourceTree = "<group>"; };
+		C2E292AE1CC97D20004B26D5 /* sonnerie-beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "sonnerie-beep.mp3"; path = "../../sonnerie-beep.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 				C2E292AA1CC91793004B26D5 /* MinuteurViewController.swift */,
 				5D8494681CC9276500C30715 /* InscriptionCoach.swift */,
 				5D84946A1CC9277400C30715 /* InscriptionClient.swift */,
+				C2E292AE1CC97D20004B26D5 /* sonnerie-beep.mp3 */,
 			);
 			path = ASPTT;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2E292AF1CC97D20004B26D5 /* sonnerie-beep.mp3 in Resources */,
 				5DDCC27E1CBD4CEE00DE518C /* LaunchScreen.storyboard in Resources */,
 				5DDCC27B1CBD4CEE00DE518C /* Assets.xcassets in Resources */,
 				5DDCC2791CBD4CEE00DE518C /* Main.storyboard in Resources */,
