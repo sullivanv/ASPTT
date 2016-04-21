@@ -37,6 +37,8 @@
 		5DDCC27E1CBD4CEE00DE518C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DDCC27C1CBD4CEE00DE518C /* LaunchScreen.storyboard */; };
 		5DDCC2891CBD4CEF00DE518C /* ASPTTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDCC2881CBD4CEF00DE518C /* ASPTTTests.swift */; };
 		5DDCC2941CBD4CEF00DE518C /* ASPTTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDCC2931CBD4CEF00DE518C /* ASPTTUITests.swift */; };
+		C2E292A91CC9107B004B26D5 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E292A81CC9107B004B26D5 /* TimerViewController.swift */; };
+		C2E292AB1CC91793004B26D5 /* MinuteurViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2E292AA1CC91793004B26D5 /* MinuteurViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +97,8 @@
 		5DDCC28F1CBD4CEF00DE518C /* ASPTTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASPTTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DDCC2931CBD4CEF00DE518C /* ASPTTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASPTTUITests.swift; sourceTree = "<group>"; };
 		5DDCC2951CBD4CEF00DE518C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E292A81CC9107B004B26D5 /* TimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		C2E292AA1CC91793004B26D5 /* MinuteurViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinuteurViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +180,8 @@
 				5D84945A1CC6532E00C30715 /* question_eau.swift */,
 				5D84945C1CC6533B00C30715 /* question_autre.swift */,
 				5D84945E1CC8CB2100C30715 /* TimerSeance.swift */,
+				C2E292A81CC9107B004B26D5 /* TimerViewController.swift */,
+				C2E292AA1CC91793004B26D5 /* MinuteurViewController.swift */,
 			);
 			path = ASPTT;
 			sourceTree = "<group>";
@@ -331,6 +337,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2E292A91CC9107B004B26D5 /* TimerViewController.swift in Sources */,
 				5D8494311CBFF5D900C30715 /* Planning.swift in Sources */,
 				5D8494411CC138A200C30715 /* ReservationClient.swift in Sources */,
 				5D84944B1CC1512A00C30715 /* ListeDesClients.swift in Sources */,
@@ -339,6 +346,7 @@
 				5D8494431CC138B900C30715 /* SuiviClient.swift in Sources */,
 				5D8494451CC138C900C30715 /* OutilsClient.swift in Sources */,
 				5D8494511CC633A000C30715 /* EnleveClavier.swift in Sources */,
+				C2E292AB1CC91793004B26D5 /* MinuteurViewController.swift in Sources */,
 				5D84943D1CC1385C00C30715 /* InfoClient.swift in Sources */,
 				5D8494531CC64E4E00C30715 /* Question_sport.swift in Sources */,
 				5D8494471CC14CE900C30715 /* CoachViewController.swift in Sources */,
