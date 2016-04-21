@@ -165,6 +165,10 @@ class ReservationClient: UIViewController {
                         let jsonData:NSDictionary = try NSJSONSerialization.JSONObjectWithData(urlData!, options:NSJSONReadingOptions.MutableContainers ) as! NSDictionary
                         
                         
+                        let prefs = NSUserDefaults.standardUserDefaults()
+                        prefs.setObject(2, forKey: "prevision")
+                        
+                        
                         
                         let alertView:UIAlertView = UIAlertView()
                         

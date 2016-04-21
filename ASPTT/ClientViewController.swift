@@ -11,6 +11,9 @@ import Foundation
 class ClientViewController: UIViewController {
     
     @IBOutlet weak var MenuButton: UIBarButtonItem!
+    @IBOutlet weak var nomcoach: UILabel!
+    @IBOutlet weak var prevision1: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -18,6 +21,17 @@ class ClientViewController: UIViewController {
             MenuButton.target = self.revealViewController()
             MenuButton.action = "revealToggle:"
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
+        }
+        
+        let prefs = NSUserDefaults.standardUserDefaults()
+        
+        let coach = prefs.objectForKey("coach") as! String!
+        nomcoach.text = "Votre coach est : " + coach
+       // let prev = prefs.objectForKey("prevision") as! Int!
+
+        if ((prefs.objectForKey("prevision")) != nil)
+        {
+            prevision1.text = "1 séance de prévue"
         }
         // Do any additional setup after loading the view, typically from a nib.
     }
