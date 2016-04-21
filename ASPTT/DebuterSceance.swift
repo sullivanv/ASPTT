@@ -94,7 +94,7 @@ class DebuterSceance: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
         // Check if the metadataObjects array is not nil and it contains at least one object.
         if metadataObjects == nil || metadataObjects.count == 0 {
             qrCodeFrameView?.frame = CGRectZero
-            messageLabel.text = "No barcode/QR code is detected"
+            messageLabel.text = "Aucun QR Code detecté"
             return
         }
         
@@ -110,8 +110,17 @@ class DebuterSceance: UIViewController, AVCaptureMetadataOutputObjectsDelegate {
             let barCodeObject = videoPreviewLayer?.transformedMetadataObjectForMetadataObject(metadataObj)
             qrCodeFrameView?.frame = barCodeObject!.bounds
             
+            var x = 0;
             if metadataObj.stringValue != nil {
                 messageLabel.text = metadataObj.stringValue
+                
+                let prefs:NSUserDefaults = NSUserDefaults.standardUserDefaults()
+                prefs.setObject(metadataObj.stringValue, forKey: "client")
+                prefs.synchronize()
+                if (x == 0) {
+                self.performSegueWithIdentifier("goto_debut", sender: self)
+                    x = 1;
+                }
             }
         }
     }
