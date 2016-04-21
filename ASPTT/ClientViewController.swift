@@ -29,9 +29,12 @@ class ClientViewController: UIViewController {
         nomcoach.text = "Votre coach est : " + coach
        // let prev = prefs.objectForKey("prevision") as! Int!
 
+        
         if ((prefs.objectForKey("prevision")) != nil)
         {
-            prevision1.text = "1 séance de prévue"
+            prevision1.text = "Aucune séance de prévue"
+            prefs.setObject(nil, forKey: "prevision")
+            
         }
         // Do any additional setup after loading the view, typically from a nib.
     }
