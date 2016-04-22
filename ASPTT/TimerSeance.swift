@@ -62,7 +62,7 @@ class TimerSeance: UIViewController {
     }
     override func viewDidLoad() {
         let prefs = NSUserDefaults.standardUserDefaults()
-        label.text = "Le client est : " + "flo"//(prefs.objectForKey("client") as! String!)
+        label.text = "Le client est : " + (prefs.objectForKey("client") as! String!)
         
     }
 }
